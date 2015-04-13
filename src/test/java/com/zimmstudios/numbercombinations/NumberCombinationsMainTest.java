@@ -6,7 +6,6 @@ import java.util.List;
 import org.junit.Test;
 import static org.junit.Assert.assertTrue;
 import static org.junit.Assert.assertFalse;
-import static org.junit.Assert.fail;
 import org.paukov.combinatorics.Factory;
 import org.paukov.combinatorics.ICombinatoricsVector;
 
@@ -160,7 +159,5 @@ public class NumberCombinationsMainTest
                 NumberCombinationsMain.containsAny(vector, lookFor);
         
         assertFalse(containsAny);
-        
-        fail("Testing TravisCI with unit test failure.");
     }
 }
