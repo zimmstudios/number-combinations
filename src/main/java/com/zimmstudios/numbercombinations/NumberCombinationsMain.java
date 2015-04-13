@@ -43,7 +43,7 @@ public class NumberCombinationsMain
     // Do not alter this (9 is always going to be the max digit for Sudokus)
     private static final int MAX_DIGIT = 9;
     
-    
+    error
     /**
      * See class JavaDoc.
      * @param args are not used for this program.
